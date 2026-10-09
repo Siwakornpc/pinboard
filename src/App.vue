@@ -1,18 +1,8 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-    <h1
-        class="head1"
-        :style="{ textAlign: 'center', color: 'white' }"
-    >Pinboard</h1>
+  <div id="app">
+    <!-- Any global navigation headers can go here -->
     
-    <div class="box">
-        <p :style="{ color: 'white' }">Welcome to Pinboard!</p>
-    </div>
+    <!-- Vue Router will swap Home or Login right here -->
+    <router-view />
+  </div>
 </template>
-
-<style scoped>
-
-</style>
